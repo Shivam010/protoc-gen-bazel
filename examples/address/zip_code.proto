@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package address;
+
+message ZipCode {
+  string code = 1;
+}
