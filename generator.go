@@ -57,7 +57,7 @@ func packageInformation() string {
 
 	// adding load extensions information
 	out += "# Loading useful Bazel extensions\n"
-	//out += "load(\"@build_bazel_rules_typescript//:defs.bzl\", \"ts_proto_library\")\n\n"
+	out += "load(\"@build_bazel_rules_typescript//:defs.bzl\", \"ts_proto_library\")\n\n"
 
 	return out
 }

@@ -15,8 +15,8 @@ proto_library(
 	],
 )
 
-cc_proto_library(
-	name = "person_cc_proto",
+ts_proto_library(
+	name = "person_ts_proto",
 	deps = [
 		"//examples/person:person_proto",
 	],

@@ -14,8 +14,8 @@ proto_library(
 	],
 )
 
-cc_proto_library(
-	name = "address_cc_proto",
+ts_proto_library(
+	name = "address_ts_proto",
 	deps = [
 		"//examples/address:address_proto",
 	],
@@ -30,8 +30,8 @@ proto_library(
 	],
 )
 
-cc_proto_library(
-	name = "zip_code_cc_proto",
+ts_proto_library(
+	name = "zip_code_ts_proto",
 	deps = [
 		"//examples/address:zip_code_proto",
 	],
