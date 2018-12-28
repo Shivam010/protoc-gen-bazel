@@ -4,7 +4,7 @@ protoc-gen-bazel is a Bazel build file generator which is used to convert protoc
 Installation
 ---
 ``` 
-go get github.com/Shivam010/protoc-gen-bazel/...
+go get github.com/Shivam010/protoc-gen-bazel
 go install github.com/Shivam010/protoc-gen-bazel
 ```
 
