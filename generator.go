@@ -40,7 +40,7 @@ func (bm *BazelBuildModule) Execute(targets map[string]pgs.File, packages map[st
 		out = packageInformation() + out
 
 		// generate output file
-		fn := fmt.Sprintf("%s/BUILD", dn)
+		fn := fmt.Sprintf("%s/BUILD.bazel", dn)
 		bm.AddGeneratorFile(fn, out)
 	}
 
